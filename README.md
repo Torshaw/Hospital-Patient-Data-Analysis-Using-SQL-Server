@@ -226,10 +226,9 @@ Hospital-Patient-and-Doctor-Analysis/
 
 **Abdulmuiz Abdulazeez Arikewushola**
 
-Data Analyst | SQL | Excel | Power BI | Python
+Data Analyst | Excel | SQL | Power BI | Python
 
-* **GitHub:** [torshaw](https://github.com/torshaw)
-* **Location:** Nigeria
+[E-mail](aatorshaw@gmail.com) | [LinkedIn](https://www.linkedin.com/in/torshaw)
 
 ## 📖 About the Project
 
