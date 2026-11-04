@@ -173,7 +173,7 @@ Hospital-Patient-and-Doctor-Analysis/
 │   ├── Patients.csv
 │   └── Doctors.csv
 │
-└── image/
+└── images/
 ├── 01-doctors-table.png
 ├── 02-patients-doctors-join.png
 ├── 03-internal-medicine-patients.png
