@@ -38,7 +38,15 @@ SELECT *
 FROM Doctors;
 ```
 
-**Query Result:**
+**Query Result:** 
+### Doctors Table Verification
+
+![Doctors Table Verification](images/01-doctors-table.png)
+
+
+### Patient Age Group Classification
+
+![Patient Age Group Classification](images/06-patient-age-group-classification.png)
 
 ### 2. Join Patients and Doctors Tables
 
@@ -55,6 +63,9 @@ INNER JOIN Doctors d
 ```
 
 **Query Result:**
+### Patients and Doctors Join
+
+![Patients and Doctors Join](images/02-patients-doctors-join.png)
 
 ### 3. Identify Patients Treated by Internal Medicine Specialists
 
@@ -71,6 +82,9 @@ WHERE d.Specialization = 'Internal Medicine';
 ```
 
 **Query Result:**
+### Internal Medicine Patients
+
+![Internal Medicine Patients](images/03-internal-medicine-patients.png)
 
 ### 4. Calculate Average Length of Stay per Doctor
 
@@ -90,6 +104,9 @@ GROUP BY
 ```
 
 **Query Result:**
+### Average Length of Stay
+
+![Average Length of Stay per Doctor](images/04-average-length-of-stay.png)
 
 ### 5. Identify the Doctor with the Highest Number of Patients
 
@@ -111,6 +128,27 @@ ORDER BY
 ```
 
 **Query Result:**
+### Doctor with Highest Patient Count
+
+![Doctor with Highest Patient Count](images/05-doctor-highest-patient-count.png)
+
+### 6. Classify Patients by Age Group Using CASE Statement
+
+A CASE expression was used to classify patients into three age categories: Young (under 40), Middle-aged (40–59), and Senior (60 and above). This demonstrates conditional logic in SQL Server.
+
+```sql
+SELECT *,
+    CASE
+        WHEN Age < 40 THEN 'Young'
+        WHEN Age BETWEEN 40 AND 59 THEN 'Middle-aged'
+        ELSE 'Senior'
+    END AS Age_Group
+FROM Patients;
+```
+
+**Query Result:**
+
+![Patient Age Group Classification](images/06-patient-age-group-classification.png)
 
 ## 📊 Key Analytical Areas
 
