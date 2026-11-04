@@ -44,10 +44,6 @@ FROM Doctors;
 ![Doctors Table Verification](images/01-doctors-table.png)
 
 
-### Patient Age Group Classification
-
-![Patient Age Group Classification](images/06-patient-age-group-classification.png)
-
 ### 2. Join Patients and Doctors Tables
 
 An INNER JOIN was used to combine the Patients and Doctors tables to display each patient's name alongside their doctor's name and medical specialization.
@@ -67,6 +63,7 @@ INNER JOIN Doctors d
 
 ![Patients and Doctors Join](images/02-patients-doctors-join.png)
 
+
 ### 3. Identify Patients Treated by Internal Medicine Specialists
 
 This query filters the records to identify patients treated by doctors whose specialization is Internal Medicine.
@@ -85,6 +82,7 @@ WHERE d.Specialization = 'Internal Medicine';
 ### Internal Medicine Patients
 
 ![Internal Medicine Patients](images/03-internal-medicine-patients.png)
+
 
 ### 4. Calculate Average Length of Stay per Doctor
 
@@ -107,6 +105,7 @@ GROUP BY
 ### Average Length of Stay
 
 ![Average Length of Stay per Doctor](images/04-average-length-of-stay.png)
+
 
 ### 5. Identify the Doctor with the Highest Number of Patients
 
@@ -132,6 +131,7 @@ ORDER BY
 
 ![Doctor with Highest Patient Count](images/05-doctor-highest-patient-count.png)
 
+
 ### 6. Classify Patients by Age Group Using CASE Statement
 
 A CASE expression was used to classify patients into three age categories: Young (under 40), Middle-aged (40–59), and Senior (60 and above). This demonstrates conditional logic in SQL Server.
@@ -147,8 +147,10 @@ FROM Patients;
 ```
 
 **Query Result:**
+### Patient Age Group Classification
 
 ![Patient Age Group Classification](images/06-patient-age-group-classification.png)
+
 
 ## 📊 Key Analytical Areas
 
