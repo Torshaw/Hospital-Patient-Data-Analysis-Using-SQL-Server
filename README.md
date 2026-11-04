@@ -173,7 +173,7 @@ Hospital-Patient-and-Doctor-Analysis/
 │   ├── Patients.csv
 │   └── Doctors.csv
 │
-└── images/
+└── image/
     ├── 01-doctors-table.png
     ├── 02-patients-doctors-join.png
     ├── 03-internal-medicine-patients.png
@@ -181,8 +181,6 @@ Hospital-Patient-and-Doctor-Analysis/
     ├── 05-doctor-highest-patient-count.png
     └── 06-patient-age-group-classification.png
 ```
-
-**Important:** Upload each screenshot into the `images` folder using the corresponding filename above. GitHub will then display the screenshots automatically in the README.
 
 ## 👨‍💻 Author
 
