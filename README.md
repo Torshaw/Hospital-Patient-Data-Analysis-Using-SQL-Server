@@ -174,12 +174,12 @@ Hospital-Patient-and-Doctor-Analysis/
 │   └── Doctors.csv
 │
 └── image/
-    ├── 01-doctors-table.png
-    ├── 02-patients-doctors-join.png
-    ├── 03-internal-medicine-patients.png
-    ├── 04-average-length-of-stay.png
-    ├── 05-doctor-highest-patient-count.png
-    └── 06-patient-age-group-classification.png
+├── 01-doctors-table.png
+├── 02-patients-doctors-join.png
+├── 03-internal-medicine-patients.png
+├── 04-average-length-of-stay.png
+├── 05-doctor-highest-patient-count.png
+└── 06-patient-age-group-classification.png
 ```
 
 ## 👨‍💻 Author
