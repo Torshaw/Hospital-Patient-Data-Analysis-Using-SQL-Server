@@ -14,7 +14,7 @@ This project explores hospital patient and doctor records using Microsoft SQL Se
 6. [How to Run the Project](#-how-to-run-the-project)
 7. [Tools and Technologies](#️-tools-and-technologies)
 8. [Repository Structure](#-repository-structure)
-9. [Author](#-author)
+9. [Author](#author)
 10. [About the Project](#-about-the-project)
 
 ## 🎯 Project Objectives
